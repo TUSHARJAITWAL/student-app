@@ -1,0 +1,7 @@
+puts "Enter the base of triangle:"
+triangle_base = gets.chomp.to_f
+puts  "Enter the height triangle:"
+triangle_height = gets.chomp.to_f
+
+area_of_triangle = (triangle_base*triangle_height)/2
+puts "Value of area_of_triangle is : #{area_of_triangle}"
